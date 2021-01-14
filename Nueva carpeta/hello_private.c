@@ -10,7 +10,7 @@ int main()
 {//abre la región paralela
     printf("Hola mundo\n");
 
-    for( i = 0; i < 100; ++i){
+    for( i = 0; i < 1000; ++i){
         printf("Contador: %d\n", i );
     }
 }// cierra la region paralela

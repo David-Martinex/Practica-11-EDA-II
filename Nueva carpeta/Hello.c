@@ -27,5 +27,5 @@ void hello()
 
     int thread_count = omp_get_num_threads();
 
-    printf("\nHello from thread %d of %d\n", my_rank, thread_count );
+    printf("Hello from thread %d of %d\n", my_rank, thread_count );
 }
